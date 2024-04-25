@@ -1,8 +1,8 @@
 package ru.itone.iismagilov.study.spring.dao.entity;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.NoArgsConstructor;
 
 @Getter
 @Setter
@@ -14,5 +14,6 @@ public class StudentEntity {
     private String middleName;
     private int age;
     private String passport;
+    private String address;
 }
 

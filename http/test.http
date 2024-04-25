@@ -1,3 +1,31 @@
-### Получение текста Hello World
-GET http://localhost:8080/hello
+### Получение студента
+GET http://localhost:8080/getStudent
 Content-Type: application/json
+{
+"id": 1
+}
+
+### Создание студента 1
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+### Создание студента 2
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+{
+"name": "Andrey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667700"
+}
+### Удаление студента 1
+DELETE http://localhost:8080/deleteStudent
+Content-Type: application/json
+{
+"passport": "1122 667755"
+}
