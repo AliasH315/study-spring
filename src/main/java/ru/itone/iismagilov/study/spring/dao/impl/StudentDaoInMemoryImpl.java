@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class StudentDaoInMemoryImpl implements StudentDao {
 
-    private final Map<Integer, StudentEntity> idStudentEntityMap = new HashMap<>();
+    private final Map<Integer, StudentEntity> studentsEntityMap = new HashMap<>();
 
     private int countID = 0;
 
@@ -16,20 +16,20 @@ public class StudentDaoInMemoryImpl implements StudentDao {
     public StudentEntity save(StudentEntity studentEntity) {
         final int studentId = countID;
         studentEntity.setId(studentId);
-        idStudentEntityMap.put(studentId, studentEntity);
+        studentsEntityMap.put(studentId, studentEntity);
         countID = countID + 1;
         return studentEntity;
     }
 
     @Override
     public StudentEntity find(int id) {
-        return idStudentEntityMap.get(id);
+        return studentsEntityMap.get(id);
     }
 
     @Override
     public StudentEntity update(StudentEntity studentEntity) {
         //получить объект из коллекции и проставить ему поля такие же как в аргументе метода
-        StudentEntity inMemoryStudentEntity = idStudentEntityMap.get(studentEntity.getId());
+        StudentEntity inMemoryStudentEntity = studentsEntityMap.get(studentEntity.getId());
         inMemoryStudentEntity.setName(studentEntity.getName());
         inMemoryStudentEntity.setLastName(studentEntity.getLastName());
         inMemoryStudentEntity.setMiddleName(studentEntity.getMiddleName());
@@ -40,6 +40,6 @@ public class StudentDaoInMemoryImpl implements StudentDao {
 
     @Override
     public StudentEntity delete(int id) {
-        return idStudentEntityMap.remove(id);
+        return studentsEntityMap.remove(id);
     }
 }
