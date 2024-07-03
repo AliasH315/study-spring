@@ -1,19 +1,18 @@
 ### Получение студента
-GET http://localhost:8080/getStudent
+GET http://localhost:8080/getStudent/0
 Content-Type: application/json
-{
-"id": 1
-}
 
 ### Создание студента 1
 POST http://localhost:8080/addStudent
 Content-Type: application/json
+
 {
 "name": "Sergey",
 "lastName": "Mizorov",
 "middleName": "Petrovich",
 "passport": "1122 667755"
 }
+
 ### Создание студента 2
 POST http://localhost:8080/addStudent
 Content-Type: application/json

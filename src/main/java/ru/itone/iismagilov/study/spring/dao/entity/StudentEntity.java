@@ -3,10 +3,12 @@ package ru.itone.iismagilov.study.spring.dao.entity;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Getter
 @Setter
 @NoArgsConstructor
+@ToString
 public class StudentEntity {
     private int id;
     private String name;
