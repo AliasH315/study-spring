@@ -1,6 +1,5 @@
 package ru.itone.iismagilov.study.spring.service;
 
-import ru.itone.iismagilov.study.spring.dao.entity.StudentEntity;
 import ru.itone.iismagilov.study.spring.dto.StudentDto;
 
 /*
@@ -8,10 +7,10 @@ import ru.itone.iismagilov.study.spring.dto.StudentDto;
 */
 public interface StudentService {
 
-    StudentEntity get(int id);
+    StudentDto get(int id);
 
-    StudentEntity add(StudentDto studentDto);
+    StudentDto add(StudentDto studentDto);
 
-    StudentEntity delete(int id);
+    StudentDto delete(int id);
 
 }

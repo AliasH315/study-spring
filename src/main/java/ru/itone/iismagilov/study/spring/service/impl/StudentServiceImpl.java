@@ -16,23 +16,36 @@ public class StudentServiceImpl implements StudentService {
     private StudentDao studentDao;
 
     @Override
-    public StudentEntity get(int id) {
-        return studentDao.find(id);
+    public StudentDto get(int id) {
+        StudentEntity studentEntity = studentDao.find(id);
+        StudentDto studentDto = new StudentDto();
+        studentDto.setName(studentEntity.getName());
+        studentDto.setMiddleName(studentEntity.getMiddleName());
+        studentDto.setLastName(studentEntity.getLastName());
+        studentDto.setPassport(studentEntity.getPassport());
+        return studentDto;
     }
 
     @Override
-    public StudentEntity add(StudentDto studentDto) {
-        StudentEntity student = new StudentEntity();
-        student.setName(studentDto.getName());
-        student.setMiddleName(studentDto.getMiddleName());
-        student.setLastName(studentDto.getLastName());
-        student.setPassport(studentDto.getPassport());
-        return studentDao.save(student);
+    public StudentDto add(StudentDto studentDto) {
+        StudentEntity studentEntity = new StudentEntity();
+        studentEntity.setName(studentDto.getName());
+        studentEntity.setMiddleName(studentDto.getMiddleName());
+        studentEntity.setLastName(studentDto.getLastName());
+        studentEntity.setPassport(studentDto.getPassport());
+        studentDao.save(studentEntity);
+        return studentDto;
     }
 
     @Override
-    public StudentEntity delete(int id) {
-        return studentDao.delete(id);
+    public StudentDto delete(int id) {
+        StudentEntity studentEntity = studentDao.delete(id);
+        StudentDto studentDto = new StudentDto();
+        studentDto.setName(studentEntity.getName());
+        studentDto.setMiddleName(studentEntity.getMiddleName());
+        studentDto.setLastName(studentEntity.getLastName());
+        studentDto.setPassport(studentEntity.getPassport());
+        return studentDto;
     }
 
 }

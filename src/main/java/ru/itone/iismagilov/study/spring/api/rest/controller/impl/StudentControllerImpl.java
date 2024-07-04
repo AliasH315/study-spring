@@ -17,13 +17,8 @@ public class StudentControllerImpl implements StudentController {
         return ResponseEntity.ok(String.valueOf(studentService.get(id)));
     }
     @Override
-    public ResponseEntity<String> addStudentText(String name, String lastName, String middleName, String passport) {
-        StudentDto student = new StudentDto();
-        student.setName(name);
-        student.setLastName(lastName);
-        student.setMiddleName(middleName);
-        student.setPassport(passport);
-        return ResponseEntity.ok(String.valueOf(studentService.add(student)));
+    public ResponseEntity<String> addStudentText(StudentDto studentDto) {
+        return ResponseEntity.ok(String.valueOf(studentService.add(studentDto)));
     }
     @Override
     public ResponseEntity<String> deleteStudentText(int id) {
