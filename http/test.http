@@ -16,12 +16,14 @@ Content-Type: application/json
 ### Создание студента 2
 POST http://localhost:8080/addStudent
 Content-Type: application/json
+
 {
 "name": "Andrey",
 "lastName": "Mizorov",
 "middleName": "Petrovich",
 "passport": "1122 667700"
 }
+
 ### Удаление студента 1
 DELETE http://localhost:8080/deleteStudent
 Content-Type: application/json
