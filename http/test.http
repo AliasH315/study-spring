@@ -19,14 +19,22 @@ Content-Type: application/json
 
 {
 "name": "Andrey",
-"lastName": "Mizorov",
+  "lastName": "Petrov",
 "middleName": "Petrovich",
-"passport": "1122 667700"
+  "passport": "1133 667700"
+}
+
+### Создание студента 3
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+
+{
+  "name": "Petr",
+  "lastName": "Ivanov",
+  "middleName": "Petrovich",
+  "passport": "1144 667777"
 }
 
 ### Удаление студента 1
-DELETE http://localhost:8080/deleteStudent
+DELETE http://localhost:8080/deleteStudent/0
 Content-Type: application/json
-{
-"passport": "1122 667755"
-}

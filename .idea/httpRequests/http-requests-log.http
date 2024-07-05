@@ -5,6 +5,601 @@ Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
+<> 2024-07-05T122934.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122929.200.txt
+
+###
+
+DELETE http://localhost:8080/deleteStudent/0
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122923.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122913.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/3
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122908.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 94
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Petr",
+"lastName": "Ivanov",
+"middleName": "Petrovich",
+"passport": "1144 667777"
+}
+
+<> 2024-07-05T122901.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Petrov",
+"middleName": "Petrovich",
+"passport": "1133 667700"
+}
+
+<> 2024-07-05T122858.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+
+<> 2024-07-05T122854.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/0
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122851.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/0
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122642.500.json
+
+###
+
+DELETE http://localhost:8080/deleteStudent/0
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122634.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/0
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122547.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122543.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122538.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 94
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Petr",
+"lastName": "Ivanov",
+"middleName": "Petrovich",
+"passport": "1144 667777"
+}
+
+<> 2024-07-05T122531.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Petrov",
+"middleName": "Petrovich",
+"passport": "1133 667700"
+}
+
+<> 2024-07-05T122517.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+
+<> 2024-07-05T122513.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122508.500.json
+
+###
+
+DELETE http://localhost:8080/deleteStudent/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122409.200.txt
+
+###
+
+DELETE http://localhost:8080/deleteStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122404.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122359.500.json
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122353.500.json
+
+###
+
+DELETE http://localhost:8080/deleteStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122304.200.txt
+
+###
+
+DELETE http://localhost:8080/deleteStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122250.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122100.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/0
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122045.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T122038.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 94
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Petr",
+"lastName": "Ivanov",
+"middleName": "Petrovich",
+"passport": "1144 667777"
+}
+
+<> 2024-07-05T122035.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Petrov",
+"middleName": "Petrovich",
+"passport": "1133 667700"
+}
+
+<> 2024-07-05T122032.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+
+<> 2024-07-05T122030.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T121949.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 94
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Petr",
+"lastName": "Ivanov",
+"middleName": "Petrovich",
+"passport": "1144 667777"
+}
+
+<> 2024-07-05T121938.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Petrov",
+"middleName": "Petrovich",
+"passport": "1133 667700"
+}
+
+<> 2024-07-05T121846.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+
+<> 2024-07-05T121843.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Petrov",
+"middleName": "Petrovich",
+"passport": "1133 667700"
+}
+
+<> 2024-07-05T104137.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+
+<> 2024-07-05T104135.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 96
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Petrov",
+"middleName": "Petrovich",
+"passport": "1133 667700"
+}
+
+<> 2024-07-05T101743.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667700"
+}
+
+<> 2024-07-05T101652.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+
+<> 2024-07-05T101648.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Andrey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667700"
+}
+
+<> 2024-07-05T101319.200.txt
+
+###
+
+POST http://localhost:8080/addStudent
+Content-Type: application/json
+Content-Length: 97
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"name": "Sergey",
+"lastName": "Mizorov",
+"middleName": "Petrovich",
+"passport": "1122 667755"
+}
+
+<> 2024-07-05T101313.200.txt
+
+###
+
+GET http://localhost:8080/getStudent/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-05T101259.500.json
+
+###
+
+GET http://localhost:8080/getStudent/0
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
 <> 2024-07-04T114854.200.txt
 
 ###
@@ -111,137 +706,6 @@ Accept: */*
 }
 
 <> 2024-07-03T112631.200.txt
-
-###
-
-POST http://localhost:8080/addStudent
-Content-Type: application/json
-Content-Length: 97
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-"name": "Sergey",
-"lastName": "Mizorov",
-"middleName": "Petrovich",
-"passport": "1122 667755"
-}
-
-<> 2024-07-03T112522.200.txt
-
-###
-
-GET http://localhost:8080/getStudent/1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-07-03T112425.200.txt
-
-###
-
-GET http://localhost:8080/getStudent/1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-07-03T111516.500.json
-
-###
-
-GET http://localhost:8080/getStudent/1
-Content-Type: application/json
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.3
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-07-03T111341.404.json
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-04-03T125558.500.json
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-12T152137.200.txt
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-12T152019.200.txt
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-12T151348.200.txt
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-12T151100.500.json
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-12T150033.500.json
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-12T145153.200.txt
-
-###
-
-GET http://localhost:8080/hello
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-03-12T142412.404.json
 
 ###
 
