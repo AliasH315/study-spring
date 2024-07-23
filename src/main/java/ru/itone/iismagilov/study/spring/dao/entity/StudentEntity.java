@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @Getter
 @Setter

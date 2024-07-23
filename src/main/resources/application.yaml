@@ -1,0 +1,9 @@
+# application.yml
+spring:
+  application:
+    name: template-app
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Avaya434
+    driver-class-name: org.postgresql.Driver

@@ -47,8 +47,7 @@ public class StudentServiceImpl implements StudentService {
         studentEntity.setMiddleName(studentDto.getMiddleName());
         studentEntity.setLastName(studentDto.getLastName());
         studentEntity.setPassport(studentDto.getPassport());
-        studentDao.save(studentEntity);
-        studentDto.setId(studentEntity.getId());
+        studentDto.setId(studentDao.save(studentEntity).getId());
         return studentDto;
     }
 
