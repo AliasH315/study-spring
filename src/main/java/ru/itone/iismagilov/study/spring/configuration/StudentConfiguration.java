@@ -1,14 +1,12 @@
 package ru.itone.iismagilov.study.spring.configuration;
 
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import ru.itone.iismagilov.study.spring.dao.StudentDao;
 import ru.itone.iismagilov.study.spring.dao.impl.StudentDaoInDBImpl;
 import ru.itone.iismagilov.study.spring.dao.impl.StudentDaoInMemoryImpl;
-import ru.itone.iismagilov.study.spring.dao.impl.StudentDaoRouterImpl;
 import ru.itone.iismagilov.study.spring.service.StudentService;
 import ru.itone.iismagilov.study.spring.service.impl.StudentServiceImpl;
 
@@ -21,19 +19,14 @@ public class StudentConfiguration {
     }
 
     @Bean
-    @Primary
-    public StudentDao studentDao(@Qualifier("studentDaoInMemoryImpl") StudentDao studentDaoInMemory,
-                                 @Qualifier("studentDaoInDBImpl") StudentDao studentDaoInDb) {
-        return new StudentDaoRouterImpl(studentDaoInMemory, studentDaoInDb);
-    }
-
-    @Bean
-    public StudentDao studentDaoInMemoryImpl() {
+    @ConditionalOnProperty(name = "db.mode", havingValue = "in_memory")
+    public StudentDao StudentDaoInMemoryImpl() {
         return new StudentDaoInMemoryImpl();
     }
 
     @Bean
-    public StudentDao studentDaoInDBImpl(NamedParameterJdbcTemplate jdbcTemplate) {
-        return new StudentDaoInDBImpl(jdbcTemplate);
+    @ConditionalOnProperty(name = "db.mode", havingValue = "db")
+    public StudentDao studentDaoInDBImpl(NamedParameterJdbcTemplate namedParameterJdbcTemplate) {
+        return new StudentDaoInDBImpl(namedParameterJdbcTemplate);
     }
 }
